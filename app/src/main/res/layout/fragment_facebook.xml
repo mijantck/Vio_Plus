@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.FacebookFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/topLayout_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_below="@+id/topLayout_fb"
+        android:id="@+id/fragment_container_fb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav_view_fb"/>
+
+    <com.zagori.bottomnavbar.BottomNavBar
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_nav_view_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:bn_background_color="@color/colorError"
+        app:bn_item_color="@drawable/bottom_nav_item_state"
+        app:bn_menu="@menu/bottom_nav_menu_all"
+        app:bn_curve_vertical_offset="0dp"
+        app:bn_curve_margin="6dp"
+        app:bn_curve_rounded_corner_radius="8dp"
+        app:bn_fab_size="normal"
+        app:bn_fab_menu_index="2"
+        app:bn_fab_background_color="@color/colorError"
+        app:bn_fab_icon_color="@color/colorOnPrimary"/>
+
+
+</RelativeLayout>

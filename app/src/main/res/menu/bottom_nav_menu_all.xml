@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all_view"
+        android:icon="@drawable/ic_baseline_preview_24"
+        android:title="View" />
+
+    <item
+        android:id="@+id/all_like"
+        android:icon="@drawable/ic_baseline_thumb_up_24"
+        android:title="Like" />
+
+    <item
+        android:id="@+id/all_add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/all_coin"
+        android:title="Coin Earn"
+        android:icon="@drawable/ic_baseline_monetization_on_24"/>
+
+    <item
+        android:id="@+id/page_like"
+        android:icon="@drawable/ic_baseline_local_parking_24"
+        android:title="Page Like" />
+
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "508815576106",
+    "project_id": "vioplus-ec8bf",
+    "storage_bucket": "vioplus-ec8bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508815576106:android:6505d9e131474212808753",
+        "android_client_info": {
+          "package_name": "com.mrsoftit.vioplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508815576106-slc8rh969jiqo4hl44o6t16ghks26i13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrsoftit.vioplus",
+            "certificate_hash": "8faad8ad95bc17fb62e5e9ec8162f9b83e22bffe"
+          }
+        },
+        {
+          "client_id": "508815576106-m8fmsdekiint12iq3n676lidur4q6vdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe3qoviaCysqflDpZJFI7rFMfKO8zKGcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508815576106-m8fmsdekiint12iq3n676lidur4q6vdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
