@@ -24,6 +24,7 @@ public class MainService extends Service implements View.OnTouchListener{
     private static final String TAG = "ttttttttttttt";
     String transferData;
     int countDwon ;
+    int countDwon1 ;
 
 
 
