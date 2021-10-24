@@ -9,6 +9,7 @@
 
 
     <RelativeLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
@@ -71,6 +72,7 @@
             </LinearLayout>
         </LinearLayout>
         <com.google.android.material.tabs.TabLayout
+            android:visibility="gone"
             android:background="@android:color/transparent"
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"

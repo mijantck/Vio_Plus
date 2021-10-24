@@ -126,9 +126,6 @@ public class LikeFragment extends Fragment {
                     textView.setText(videoName);
                     VideUrl=videoUrl1;
                 }
-
-
-
             } else {
                 Log.d("dataqq", "Error getting documents: ", task.getException());
             }

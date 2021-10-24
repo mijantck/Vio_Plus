@@ -24,7 +24,8 @@ public class HomeActivity extends AppCompatActivity {
 
     ActivityHomeBinding binding;
 
-    private String[] titles = new String[]{"YT", "FB", "IG", "PS", "TW", "WB"};
+   // private String[] titles = new String[]{"YT", "FB", "IG", "PS", "TW", "WB"};
+    private String[] titles = new String[]{"YT"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,16 +58,16 @@ public class HomeActivity extends AppCompatActivity {
             switch (position) {
                 case 0:
                     return new YoutubeFragment();
-                case 1:
-                    return new FacebookFragment();
-                case 2:
-                    return new InstagramFragment();
-                case 3:
-                    return new PlayStoreFragment();
-                case 4:
-                    return new TwFragment();
-                case 5:
-                    return new WebFragment();
+//                case 1:
+//                    return new FacebookFragment();
+//                case 2:
+//                    return new InstagramFragment();
+//                case 3:
+//                    return new PlayStoreFragment();
+//                case 4:
+//                    return new TwFragment();
+//                case 5:
+//                    return new WebFragment();
             }
             return new ViewFragment();
         }
